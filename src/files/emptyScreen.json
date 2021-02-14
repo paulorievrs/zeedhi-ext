@@ -1,0 +1,10 @@
+{ 
+    "name": "filename",
+    "label": "screen label",
+    "showMenu": true,
+    "showHeader": true,
+    "showFooter": true,
+    "template": "container/window.html",
+    "footer": "component/footer.html",
+    "widgets": []
+}
