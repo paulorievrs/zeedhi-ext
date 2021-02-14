@@ -4,13 +4,12 @@
 	"description": "Facilita o desenvolvimento com o framework Zeedhi",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.53.0"
+		"vscode": "^1.0.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:zeedhi-ext.helloWorld",
 		"onCommand:zeedhi-ext.criaJSON",
 		"onCommand:zeedhi-ext.criaJSONCopy"
 	],
@@ -18,16 +17,12 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "zeedhi-ext.helloWorld",
-				"title": "Hello World"
-			},
-			{
 				"command": "zeedhi-ext.criaJSON",
-				"title": "Cria uma tela vazia do Zeedhi"
+				"title": "Zeedhi: Cria uma tela vazia do Zeedhi"
 			},
 			{
 				"command": "zeedhi-ext.criaJSONCopy",
-				"title": "Copia um JSON padrão para área de transferência"
+				"title": "Zeedhi: Copia um JSON de uma tela vazia padrão para área de transferência"
 			}
 		]
 	},

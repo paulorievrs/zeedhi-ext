@@ -14,29 +14,19 @@ function activate(context) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "zeedhi-ext" is now active!');
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with  registerCommand
-	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('zeedhi-ext.helloWorld', function () {
-		// The code you place here will be executed every time your command is executed
-
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from ZeedhiExt!');
-	});
-
-	let zeedhiJSON = vscode.commands.registerCommand('zeedhi-ext.criaJSON', function () {
+    vscode.commands.registerCommand('zeedhi-ext.criaJSON', function () {
 		if(criaJSON.hasWorkspace()) {
 			criaJSON.createJSON();
 		}
 	});
-	let zeedhiJSONCopy = vscode.commands.registerCommand('zeedhi-ext.criaJSONCopy', function () {
+
+	vscode.commands.registerCommand('zeedhi-ext.criaJSONCopy', function () {
 		if(criaJSON.copyJSON()) {
 			vscode.window.showInformationMessage('Copiado com sucesso!');
 		}
-
 	});
 
-	context.subscriptions.push(disposable, zeedhiJSON);
+	context.subscriptions.push();
 }
 
 // this method is called when your extension is deactivated
