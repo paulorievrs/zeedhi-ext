@@ -1,17 +1,27 @@
 {
 	"name": "zeedhi-ext",
-	"displayName": "ZeedhiExt",
+	"displayName": "Zeedhi Extension",
 	"description": "Facilita o desenvolvimento com o framework Zeedhi",
+	"publisher": "PauloRievrs",
+	"author": "Paulo Rievrs <prievrs@gmail.com>",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/paulorievrs/zeedhi-ext.git"
+	},
 	"engines": {
-		"vscode": "^1.0.0"
+		"vscode": "^1.53.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
 		"onCommand:zeedhi-ext.criaJSON",
-		"onCommand:zeedhi-ext.criaJSONCopy"
+		"onCommand:zeedhi-ext.criaJSONCopy",
+		"onCommand:zeedhi-ext.moduleStart",
+		"onCommand:zeedhi-ext.createGQL",
+		"onCommand:zeedhi-ext.createCadSup",
+		"onCommand:zeedhi-ext.createSup"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -23,6 +33,22 @@
 			{
 				"command": "zeedhi-ext.criaJSONCopy",
 				"title": "Zeedhi: Copia um JSON de uma tela vazia padrão para área de transferência"
+			},
+			{
+				"command": "zeedhi-ext.moduleStart",
+				"title": "Zeedhi Tecfood: Create the start modules"
+			},
+			{
+				"command": "zeedhi-ext.createGQL",
+				"title": "Zeedhi Tecfood: Create GQL module"
+			},
+			{
+				"command": "zeedhi-ext.createCadSup",
+				"title": "Zeedhi Tecfood: Create cadSup module"
+			},
+			{
+				"command": "zeedhi-ext.createSup",
+				"title": "Zeedhi Tecfood: Create sup module"
 			}
 		]
 	},
