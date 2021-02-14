@@ -1,0 +1,30 @@
+{
+    "JSON Empty Template": {
+      "prefix": ["emptyjson"],
+      "body": ["{", 
+        "\t\"name\": \"filename\",", 
+        "\t\"label\": \"screen label\",", 
+        "\t\"showMenu\": true,",
+        "\t\"showHeader\": true,",
+        "\t\"showFooter\": true,", 
+        "\t\"template\": \"container/window.html\",",
+        "\t\"footer\": \"componet/footer.html\",",
+        "\t\"widgets\": []",
+        "}"
+    ],
+      "description": "Creates a empty JSON template for Zeedhi."
+    },
+
+    "Stipe Widget": {
+        "prefix": ["stripe"],
+        "body": ["{", 
+        "\t\"name\": \"STRIPE_WIDGET\",", 
+        "\t\"template\": \"widget/stripe.html\",",
+        "\t\"isVisible\": true,",
+        "\t\"collapsible\": true",
+        "}"
+    ],
+      "description": "Creates a default stripe widget"
+    }
+
+  }

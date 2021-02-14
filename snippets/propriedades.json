@@ -1,0 +1,51 @@
+{
+    "Create Propriedade showOnView": {
+        "prefix": ["showOnView", "\"showOnView\":"],
+        "body": ["\"showOnView\": true"],
+      "description": "Creates a default showOnView propertie"
+    },
+
+    "Create Propriedade showOnList": {
+        "prefix": ["showOnList", "\"showOnList\":"],
+        "body": ["\"showOnList\": true"],
+      "description": "Creates a default showOnList propertie"
+    },
+
+    "Create Propriedade showOnForm": {
+        "prefix": ["showOnForm", "\"showOnForm\":"],
+        "body": ["\"showOnForm\": true"],
+      "description": "Creates a default showOnForm propertie"
+    },
+
+    "Create Propriedade readOnly": {
+        "prefix": ["readOnly", "\"readOnly\":"],
+        "body": ["\"readOnly\": true"],
+      "description": "Creates a default readOnly propertie"
+    },
+
+    "Create Propriedade isVisible": {
+        "prefix": ["isVisible", "\"isVisible\":"],
+        "body": ["\"isVisible\": true"],
+      "description": "Creates a default isVisible propertie"
+    },
+
+    "Create Propriedade validations": {
+        "prefix": ["validations", "\"validations\":"],
+        "body": ["\"validations\": {",
+            "\t\"required\": true",
+            "},"
+        ],
+      "description": "Creates a default validations propertie"
+    },
+
+    "Create Propriedade dataSource": {
+        "prefix": ["dataSource", "\"dataSource\":"],
+        "body": ["\"dataSource\": {",
+            "\t\"name\": \"\"",
+            "\t\"lazyLoad\": true",
+            "\t\"rest\": true",
+            "},"
+        ],
+      "description": "Creates a default dataSource propertie"
+    }
+}

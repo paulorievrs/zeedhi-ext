@@ -1,0 +1,934 @@
+{
+    "Create Empty Event": {
+        "prefix": ["events", "\"events\"", "\"events\":"],
+        "body": ["\"events\": [",
+        "\t{", 
+        "\t\t\"name\": \"\",", 
+        "\t\t\"code\": \"\"",
+        "\t}",
+        "]"
+    ],
+      "description": "Creates a default stripe widget"
+    },
+
+    "Create Event WidgetBeforeInlineEditMoveRow": {
+        "prefix": ["WidgetBeforeInlineEditMoveRow", "\"name\": \"WidgetBeforeInlineEditMoveRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeInlineEditMoveRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeInlineEditMoveRow event"
+    },
+
+    "Create Event WidgetBeforeMoveRow": {
+        "prefix": ["WidgetBeforeMoveRow", "\"name\": \"WidgetBeforeMoveRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeMoveRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeMoveRow event"
+    },
+
+    "Create Event WidgetAfterMoveRow": {
+        "prefix": ["WidgetAfterMoveRow", "\"name\": \"WidgetAfterMoveRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterMoveRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterMoveRow event"
+    },
+
+    "Create Event WidgetBeforeNewRow": {
+        "prefix": ["WidgetBeforeNewRow", "\"name\": \"WidgetBeforeNewRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeNewRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeNewRow event"
+    },
+
+    "Create Event WidgetNewRow": {
+        "prefix": ["WidgetNewRow", "\"name\": \"WidgetNewRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetNewRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetNewRow event"
+    },
+
+    "Create Event WidgetOnEnter": {
+        "prefix": ["WidgetOnEnter", "\"name\": \"WidgetOnEnter\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnEnter\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnEnter event"
+    },
+
+    "Create Event WidgetOnEnterOnce": {
+        "prefix": ["WidgetOnEnterOnce", "\"name\": \"WidgetOnEnterOnce\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnEnterOnce\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnEnterOnce event"
+    },
+
+    "Create Event WidgetOnEnterTab": {
+        "prefix": ["WidgetOnEnterTab", "\"name\": \"WidgetOnEnterTab\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnEnterTab\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnEnterTab event"
+    },
+
+    "Create Event WidgetOnSync": {
+        "prefix": ["WidgetOnSync", "\"name\": \"WidgetOnSync\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnSync\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnSync event"
+    },
+
+    "Create Event WidgetBeforeSelectRow": {
+        "prefix": ["WidgetBeforeSelectRow", "\"name\": \"WidgetBeforeSelectRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeSelectRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeSelectRow event"
+    },
+
+    "Create Event WidgetAfterSelectRow": {
+        "prefix": ["WidgetAfterSelectRow", "\"name\": \"WidgetAfterSelectRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterSelectRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterSelectRow event"
+    },
+
+    "Create Event WidgetBeforeUnselectRow": {
+        "prefix": ["WidgetBeforeUnselectRow", "\"name\": \"WidgetBeforeUnselectRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeUnselectRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeUnselectRow event"
+    },
+
+    "Create Event WidgetOnCancel": {
+        "prefix": ["WidgetOnCancel", "\"name\": \"WidgetOnCancel\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnCancel\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnCancel event"
+    },
+
+    "Create Event WidgetOnSave": {
+        "prefix": ["WidgetOnSave", "\"name\": \"WidgetOnSave\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnSave\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnSave event"
+    },
+
+    "Create Event WidgetBeforeSelectAll": {
+        "prefix": ["WidgetBeforeSelectAll", "\"name\": \"WidgetBeforeSelectAll\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeSelectAll\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeSelectAll event"
+    },
+
+    "Create Event WidgetAfterSelectAll": {
+        "prefix": ["WidgetAfterSelectAll", "\"name\": \"WidgetAfterSelectAll\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterSelectAll\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterSelectAll event"
+    },
+
+    "Create Event WidgetBeforeUnselectAll": {
+        "prefix": ["WidgetBeforeUnselectAll", "\"name\": \"WidgetBeforeUnselectAll\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetBeforeUnselectAll\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetBeforeUnselectAll event"
+    },
+
+    "Create Event WidgetAfterUnselectAll": {
+        "prefix": ["WidgetAfterUnselectAll", "\"name\": \"WidgetAfterUnselectAll\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterUnselectAll\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterUnselectAll event"
+    },
+
+    "Create Event WidgetOnInitDataSource": {
+        "prefix": ["WidgetOnInitDataSource", "\"name\": \"WidgetOnInitDataSource\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnInitDataSource\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnInitDataSource event"
+    },
+
+    "Create Event WidgetAfterLoadDataSource": {
+        "prefix": ["WidgetAfterLoadDataSource", "\"name\": \"WidgetAfterLoadDataSource\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterLoadDataSource\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterLoadDataSource event"
+    },
+
+    "Create Event WidgetAfterLoadDataSourceError": {
+        "prefix": ["WidgetAfterLoadDataSourceError", "\"name\": \"WidgetAfterLoadDataSourceError\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetAfterLoadDataSourceError\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetAfterLoadDataSourceError event"
+    },
+
+    "Create Event WidgetPopUpOnCancel": {
+        "prefix": ["WidgetPopUpOnCancel", "\"name\": \"WidgetPopUpOnCancel\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetPopUpOnCancel\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetPopUpOnCancel event"
+    },
+
+    "Create Event WidgetOnActivate": {
+        "prefix": ["WidgetOnActivate", "\"name\": \"WidgetOnActivate\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnActivate\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnActivate event"
+    },
+
+    "Create Event WidgetOnDeactivate": {
+        "prefix": ["WidgetOnDeactivate", "\"name\": \"WidgetOnDeactivate\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnDeactivate\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnDeactivate event"
+    },
+
+    "Create Event WidgetOnDateClick": {
+        "prefix": ["WidgetOnDateClick", "\"name\": \"WidgetOnDateClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnDateClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnDateClick event"
+    },
+
+    "Create Event WidgetOnMonthClick": {
+        "prefix": ["WidgetOnMonthClick", "\"name\": \"WidgetOnMonthClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnMonthClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnMonthClick event"
+    },
+
+    "Create Event WidgetOnYearClick": {
+        "prefix": ["WidgetOnYearClick", "\"name\": \"WidgetOnYearClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnYearClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnYearClick event"
+    },
+
+    "Create Event WidgetOnDashboardClick": {
+        "prefix": ["WidgetOnDashboardClick", "\"name\": \"WidgetOnDashboardClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnDashboardClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnDashboardClick event"
+    },
+
+    "Create Event WidgetOnSaveInlineEdit": {
+        "prefix": ["WidgetOnSaveInlineEdit", "\"name\": \"WidgetOnSaveInlineEdit\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnSaveInlineEdit\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnSaveInlineEdit event"
+    },
+
+    "Create Event WidgetOnCancelInlineEdit": {
+        "prefix": ["WidgetOnCancelInlineEdit", "\"name\": \"WidgetOnCancelInlineEdit\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnCancelInlineEdit\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnCancelInlineEdit event"
+    },
+
+    "Create Event WidgetOnSaveRelations": {
+        "prefix": ["WidgetOnSaveRelations", "\"name\": \"WidgetOnSaveRelations\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnSaveRelations\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnSaveRelations event"
+    },
+
+    "Create Event WidgetOnOpenDetail": {
+        "prefix": ["WidgetOnOpenDetail", "\"name\": \"WidgetOnOpenDetail\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnOpenDetail\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnOpenDetail event"
+    },
+
+    "Create Event WidgetOnCloseSwipe": {
+        "prefix": ["WidgetOnCloseSwipe", "\"name\": \"WidgetOnCloseSwipe\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnCloseSwipe\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnCloseSwipe event"
+    },
+
+    "Create Event WidgetOnNewColor": {
+        "prefix": ["WidgetOnNewColor", "\"name\": \"WidgetOnNewColor\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnNewColor\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnNewColor event"
+    },
+
+    "Create Event WidgetOnChangeMonth": {
+        "prefix": ["WidgetOnChangeMonth", "\"name\": \"WidgetOnChangeMonth\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnChangeMonth\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnChangeMonth event"
+    },
+
+    "Create Event WidgetOnChangeYear": {
+        "prefix": ["WidgetOnChangeYear", "\"name\": \"WidgetOnChangeYear\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnChangeYear\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnChangeYear event"
+    },
+
+    "Create Event WidgetOnChangeDecade": {
+        "prefix": ["WidgetOnChangeDecade", "\"name\": \"WidgetOnChangeDecade\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnChangeDecade\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnChangeDecade event"
+    },
+
+    "Create Event WidgetOnTimelineIconClick": {
+        "prefix": ["WidgetOnTimelineIconClick", "\"name\": \"WidgetOnTimelineIconClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WidgetOnTimelineIconClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WidgetOnTimelineIconClick event"
+    },
+
+    "Create Event ContainerOnBack": {
+        "prefix": ["ContainerOnBack", "\"name\": \"ContainerOnBack\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerOnBack\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerOnBack event"
+    },
+
+    "Create Event ContainerBeforeClose": {
+        "prefix": ["ContainerBeforeClose", "\"name\": \"ContainerBeforeClose\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerBeforeClose\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerBeforeClose event"
+    },
+
+    "Create Event ContainerAfterClose": {
+        "prefix": ["ContainerAfterClose", "\"name\": \"ContainerAfterClose\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerAfterClose\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerAfterClose event"
+    },
+
+    "Create Event ContainerBeforeinit": {
+        "prefix": ["ContainerBeforeinit", "\"name\": \"ContainerBeforeinit\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerBeforeinit\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerBeforeinit event"
+    },
+
+    "Create Event ContainerAfterinit": {
+        "prefix": ["ContainerAfterinit", "\"name\": \"ContainerAfterinit\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerAfterinit\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerAfterinit event"
+    },
+
+    "Create Event ContainerAfterOpenreport": {
+        "prefix": ["ContainerAfterOpenreport", "\"name\": \"ContainerAfterOpenreport\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ContainerAfterOpenreport\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ContainerAfterOpenreport event"
+    },
+
+    "Create Event WizardOnDecision": {
+        "prefix": ["WizardOnDecision", "\"name\": \"WizardOnDecision\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardOnDecision\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardOnDecision event"
+    },
+
+    "Create Event WizardAfterOpenStage": {
+        "prefix": ["WizardAfterOpenStage", "\"name\": \"WizardAfterOpenStage\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardAfterOpenStage\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardAfterOpenStage event"
+    },
+
+    "Create Event WizardBeforePreviousStage": {
+        "prefix": ["WizardBeforePreviousStage", "\"name\": \"WizardBeforePreviousStage\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardBeforePreviousStage\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardBeforePreviousStage event"
+    },
+
+    "Create Event WizardAfterPreviousStage": {
+        "prefix": ["WizardAfterPreviousStage", "\"name\": \"WizardAfterPreviousStage\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardAfterPreviousStage\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardAfterPreviousStage event"
+    },
+
+    "Create Event WizardBeforeNextStage": {
+        "prefix": ["WizardBeforeNextStage", "\"name\": \"WizardBeforeNextStage\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardBeforeNextStage\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardBeforeNextStage event"
+    },
+
+    "Create Event WizardAfterNextStage": {
+        "prefix": ["WizardAfterNextStage", "\"name\": \"WizardAfterNextStage\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardAfterNextStage\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardAfterNextStage event"
+    },
+
+    "Create Event WizardOnFinish": {
+        "prefix": ["WizardOnFinish", "\"name\": \"WizardOnFinish\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardOnFinish\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardOnFinish event"
+    },
+
+    "Create Event WizardOnCancel": {
+        "prefix": ["WizardOnCancel", "\"name\": \"WizardOnCancel\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"WizardOnCancel\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default WizardOnCancel event"
+    },
+
+    "Create Event FieldOnChange": {
+        "prefix": ["FieldOnChange", "\"name\": \"FieldOnChange\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnChange\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnChange event"
+    },
+
+    "Create Event FieldOnInput": {
+        "prefix": ["FieldOnInput", "\"name\": \"FieldOnInput\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnInput\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnInput event"
+    },
+
+    "Create Event FieldOnCancel": {
+        "prefix": ["FieldOnCancel", "\"name\": \"FieldOnCancel\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnCancel\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnCancel event"
+    },
+
+    "Create Event FieldOnAdd": {
+        "prefix": ["FieldOnAdd", "\"name\": \"FieldOnAdd\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnAdd\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnAdd event"
+    },
+
+    "Create Event FieldOnConfirm": {
+        "prefix": ["FieldOnConfirm", "\"name\": \"FieldOnConfirm\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnConfirm\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnConfirm event"
+    },
+
+    "Create Event FieldOnClick": {
+        "prefix": ["FieldOnClick", "\"name\": \"FieldOnClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnClick event"
+    },
+
+    "Create Event FieldOnBlur": {
+        "prefix": ["FieldOnBlur", "\"name\": \"FieldOnBlur\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnBlur\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnBlur event"
+    },
+
+    "Create Event FieldOnKeypress": {
+        "prefix": ["FieldOnKeypress", "\"name\": \"FieldOnKeypress\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnKeypress\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnKeypress event"
+    },
+
+    "Create Event FieldOnKeyup": {
+        "prefix": ["FieldOnKeyup", "\"name\": \"FieldOnKeyup\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnKeyup\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnKeyup event"
+    },
+
+    "Create Event FieldOnKeydown": {
+        "prefix": ["FieldOnKeydown", "\"name\": \"FieldOnKeydown\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnKeydown\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnKeydown event"
+    },
+
+    "Create Event FieldAfterMoveRow": {
+        "prefix": ["FieldAfterMoveRow", "\"name\": \"FieldAfterMoveRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldAfterMoveRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldAfterMoveRow event"
+    },
+
+    "Create Event FieldBeforeMoveRow": {
+        "prefix": ["FieldBeforeMoveRow", "\"name\": \"FieldBeforeMoveRow\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldBeforeMoveRow\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldBeforeMoveRow event"
+    },
+
+    "Create Event FieldOnFocus": {
+        "prefix": ["FieldOnFocus", "\"name\": \"FieldOnFocus\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnFocus\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnFocus event"
+    },
+
+    "Create Event FieldBeforeSelectOpen": {
+        "prefix": ["FieldBeforeSelectOpen", "\"name\": \"FieldBeforeSelectOpen\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldBeforeSelectOpen\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldBeforeSelectOpen event"
+    },
+
+    "Create Event FieldAfterSelectOpen": {
+        "prefix": ["FieldAfterSelectOpen", "\"name\": \"FieldAfterSelectOpen\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldAfterSelectOpen\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldAfterSelectOpen event"
+    },
+
+    "Create Event FieldAfterSelectFile": {
+        "prefix": ["FieldAfterSelectFile", "\"name\": \"FieldAfterSelectFile\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldAfterSelectFile\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldAfterSelectFile event"
+    },
+
+    "Create Event FieldAfterDeselectFile": {
+        "prefix": ["FieldAfterDeselectFile", "\"name\": \"FieldAfterDeselectFile\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldAfterDeselectFile\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldAfterDeselectFile event"
+    },
+
+    "Create Event FieldInlineEdit": {
+        "prefix": ["FieldInlineEdit", "\"name\": \"FieldInlineEdit\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldInlineEdit\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldInlineEdit event"
+    },
+
+    "Create Event FieldOnNewColor": {
+        "prefix": ["FieldOnNewColor", "\"name\": \"FieldOnNewColor\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FieldOnNewColor\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FieldOnNewColor event"
+    },
+
+    "Create Event ActionEvent": {
+        "prefix": ["ActionEvent", "\"name\": \"ActionEvent\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ActionEvent\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ActionEvent event"
+    },
+
+    "Create Event ElementOnClick": {
+        "prefix": ["ElementOnClick", "\"name\": \"ElementOnClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ElementOnClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ElementOnClick event"
+    },
+
+    "Create Event ElementOnTouchstart": {
+        "prefix": ["ElementOnTouchstart", "\"name\": \"ElementOnTouchstart\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ElementOnTouchstart\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ElementOnTouchstart event"
+    },
+
+    "Create Event NotificationEvent": {
+        "prefix": ["NotificationEvent", "\"name\": \"NotificationEvent\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"NotificationEvent\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default NotificationEvent event"
+    },
+
+    "Create Event onUpdate": {
+        "prefix": ["onUpdate", "\"name\": \"onUpdate\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"onUpdate\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default onUpdate event"
+    },
+
+    "Create Event RepositoryOnRetry": {
+        "prefix": ["RepositoryOnRetry", "\"name\": \"RepositoryOnRetry\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"RepositoryOnRetry\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default RepositoryOnRetry event"
+    },
+
+    "Create Event EventOnContainerOpen": {
+        "prefix": ["EventOnContainerOpen", "\"name\": \"EventOnContainerOpen\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnContainerOpen\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnContainerOpen event"
+    },
+
+    "Create Event EventOnRequestMetaDataStart": {
+        "prefix": ["EventOnRequestMetaDataStart", "\"name\": \"EventOnRequestMetaDataStart\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestMetaDataStart\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestMetaDataStart event"
+    },
+
+    "Create Event EventOnRequestStart": {
+        "prefix": ["EventOnRequestStart", "\"name\": \"EventOnRequestStart\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestStart\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestStart event"
+    },
+
+    "Create Event EventOnRequestEnd": {
+        "prefix": ["EventOnRequestEnd", "\"name\": \"EventOnRequestEnd\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestEnd\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestEnd event"
+    },
+
+    "Create Event EventOnRequestRetry": {
+        "prefix": ["EventOnRequestRetry", "\"name\": \"EventOnRequestRetry\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestRetry\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestRetry event"
+    },
+
+    "Create Event EventOnRequestSuccess": {
+        "prefix": ["EventOnRequestSuccess", "\"name\": \"EventOnRequestSuccess\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestSuccess\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestSuccess event"
+    },
+
+    "Create Event EventOnRequestError": {
+        "prefix": ["EventOnRequestError", "\"name\": \"EventOnRequestError\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestError\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestError event"
+    },
+
+    "Create Event EventOnRequestIdle": {
+        "prefix": ["EventOnRequestIdle", "\"name\": \"EventOnRequestIdle\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"EventOnRequestIdle\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default EventOnRequestIdle event"
+    },
+
+    "Create Event KanbanBeforeMoveItem": {
+        "prefix": ["KanbanBeforeMoveItem", "\"name\": \"KanbanBeforeMoveItem\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"KanbanBeforeMoveItem\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default KanbanBeforeMoveItem event"
+    },
+
+    "Create Event KanbanAfterMoveItem": {
+        "prefix": ["KanbanAfterMoveItem", "\"name\": \"KanbanAfterMoveItem\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"KanbanAfterMoveItem\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default KanbanAfterMoveItem event"
+    },
+
+    "Create Event KanbanOnTaskClick": {
+        "prefix": ["KanbanOnTaskClick", "\"name\": \"KanbanOnTaskClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"KanbanOnTaskClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default KanbanOnTaskClick event"
+    },
+
+    "Create Event MenuOnClick": {
+        "prefix": ["MenuOnClick", "\"name\": \"MenuOnClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"MenuOnClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default MenuOnClick event"
+    },
+
+    "Create Event ProductOnClick": {
+        "prefix": ["ProductOnClick", "\"name\": \"ProductOnClick\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"ProductOnClick\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default ProductOnClick event"
+    },
+
+    "Create Event FilterAfterApply": {
+        "prefix": ["FilterAfterApply", "\"name\": \"FilterAfterApply\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FilterAfterApply\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FilterAfterApply event"
+    },
+
+    "Create Event FilterBeforeApply": {
+        "prefix": ["FilterBeforeApply", "\"name\": \"FilterBeforeApply\""],
+        "body": ["\t{", 
+        "\t\t\"name\": \"FilterBeforeApply\",", 
+        "\t\t\"code\": \"\"",
+        "\t}"
+    ],
+      "description": "Creates a default FilterBeforeApply event"
+    }
+
+}

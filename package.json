@@ -13,7 +13,8 @@
 		"vscode": "^1.53.0"
 	},
 	"categories": [
-		"Other"
+		"Other",
+		"Snippets"
 	],
 	"activationEvents": [
 		"onCommand:zeedhi-ext.criaJSON",
@@ -49,6 +50,20 @@
 			{
 				"command": "zeedhi-ext.createSup",
 				"title": "Zeedhi Tecfood: Create sup module"
+			}
+		],
+		"snippets": [
+			{
+			  "language": "json",
+			  "path": "./snippets/snippets.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/events.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/propriedades.json"
 			}
 		]
 	},
