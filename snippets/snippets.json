@@ -25,6 +25,22 @@
         "}"
     ],
       "description": "Creates a default stripe widget"
-    }
+    },
+
+    "Text-edit field": {
+      "prefix": ["text-edit, field-text-edit"],
+      "body": ["{", 
+      "\t\"name\": \"name\",", 
+      "\t\"label\": \"label\",", 
+      "\t\"template\": \"field/text-edit.html\",",
+      "\t\"isVisible\": true,",
+      "\t\"showOnView\": true,",
+      "\t\"showOnForm\": true,",
+      "\t\"showOnList\": true,",
+      "\t\"class\": 12,",
+      "}"
+  ],
+    "description": "Creates a default Text-edit field"
+  }
 
   }

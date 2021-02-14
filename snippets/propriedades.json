@@ -1,35 +1,35 @@
 {
-    "Create Propriedade showOnView": {
+    "Create Propertie showOnView": {
         "prefix": ["showOnView", "\"showOnView\":"],
         "body": ["\"showOnView\": true"],
       "description": "Creates a default showOnView propertie"
     },
 
-    "Create Propriedade showOnList": {
+    "Create Propertie showOnList": {
         "prefix": ["showOnList", "\"showOnList\":"],
         "body": ["\"showOnList\": true"],
       "description": "Creates a default showOnList propertie"
     },
 
-    "Create Propriedade showOnForm": {
+    "Create Propertie showOnForm": {
         "prefix": ["showOnForm", "\"showOnForm\":"],
         "body": ["\"showOnForm\": true"],
       "description": "Creates a default showOnForm propertie"
     },
 
-    "Create Propriedade readOnly": {
+    "Create Propertie readOnly": {
         "prefix": ["readOnly", "\"readOnly\":"],
         "body": ["\"readOnly\": true"],
       "description": "Creates a default readOnly propertie"
     },
 
-    "Create Propriedade isVisible": {
+    "Create Propertie isVisible": {
         "prefix": ["isVisible", "\"isVisible\":"],
         "body": ["\"isVisible\": true"],
       "description": "Creates a default isVisible propertie"
     },
 
-    "Create Propriedade validations": {
+    "Create Propertie validations": {
         "prefix": ["validations", "\"validations\":"],
         "body": ["\"validations\": {",
             "\t\"required\": true",
@@ -38,7 +38,7 @@
       "description": "Creates a default validations propertie"
     },
 
-    "Create Propriedade dataSource": {
+    "Create Propertie dataSource": {
         "prefix": ["dataSource", "\"dataSource\":"],
         "body": ["\"dataSource\": {",
             "\t\"name\": \"\"",
@@ -47,5 +47,11 @@
             "},"
         ],
       "description": "Creates a default dataSource propertie"
+    },
+
+    "Create Propertie Show Action": {
+      "prefix": ["showAsAction", "showActionAs", "\"showActionAs\":", "\"showAsAction\":"],
+      "body": ["\"showAsAction\": \"\""],
+      "description": "Creates a default Show Action propertie"
     }
 }

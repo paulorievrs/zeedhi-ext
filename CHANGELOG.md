@@ -15,3 +15,9 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 ### Added
 
 - Snippets for events, blank template and some properties
+
+## [0.0.3] - 02-14-2021
+
+- Add Action snippets
+- Add show as action propertie
+- Add text-field field

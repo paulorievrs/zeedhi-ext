@@ -4,12 +4,13 @@ An extension for help the development of Zeedhi Framework create by Teknisa Soft
 
 Zeedhi is an framework that uses JSON to create their HTML/CSS files.
 
+For any problem you can email to: paulo.oliveira@teknisa.com
 
 # Docs
 
 You can view a Documentation Developed by me here: https://github.com/paulorievrs/ZeedhiDocs
 
-## Como Contribuir
+## How to contribute
 
 1. Create a Fork of the project
 2. Create a branch with a new feature (`git checkout -b feature/newFeature`)

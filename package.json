@@ -64,6 +64,10 @@
 			{
 				"language": "json",
 				"path": "./snippets/propriedades.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/actions.json"
 			}
 		]
 	},

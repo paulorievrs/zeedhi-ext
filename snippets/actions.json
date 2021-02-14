@@ -1,0 +1,14 @@
+{
+    "Create Actions": {
+        "prefix": ["actions"],
+        "body": ["\"actions\": [",
+            "\t{",
+            "\t\t\"name\": \"\",",
+            "\t\t\"label\": \"label\",",
+            "\t\t\"isVisible\": true",
+            "\t}",
+            "]"
+        ],
+      "description": "Creates a default action"
+    }
+}
