@@ -1,0 +1,49 @@
+{
+    "Create TemplateManager": {
+        "prefix": ["templateManager"],
+        "body": ["templateManager.container"],
+      "description": "Creates a default TemplateManager"
+    },
+
+    "Create TemplateManager Get Active Widget": {
+        "prefix": ["templateManager.container.getActiveWidget"],
+        "body": ["templateManager.container.getActiveWidget()"],
+      "description": "Creates a default TemplateManager Get Active Widget"
+    },
+
+    "Create Angular Copy": {
+        "prefix": ["angular.copy"],
+        "body": ["angular.copy()"],
+      "description": "Creates a default Angular Copy"
+    },
+
+    "Function construirData": {
+        "prefix": ["construirData"],
+        "body": [
+            "function construirData(dataObject) {",
+            "\n\tif(dataObject.period) {",
+            "\t\treturn (dataObject.period.label);",
+            "\t}",
+            "\n\tif(dataObject.formattedEnd && dataObject.formattedEnd === dataObject.formattedStart) {",
+            "\n\t\treturn dataObject.formattedStart;",
+            "\n\t} else {",
+            "\n\t\treturn dataObject.formattedStart + ' - ' + dataObject.formattedEnd;",
+            "\n\t}",
+            "\n}"
+        ],
+        "description": "Creates a default construirData function to the set in the stripe"
+    },
+
+    "Create setStripeValues()": {
+      "prefix": ["this.setStripeValues", "setStripeValues"],
+      "body": [
+        "this.setStripeValues = () => {",
+        "\tconst widgetGrid = templateManager.container.getWidget('');",
+        "\tconst widgetStripe = templateManager.container.getWidget('');",
+        "\tconst {  } = widgetGrid.appliedFilter.FILTER_ROW;",
+        "\twidgetStripe.currentRow. = ;",
+        "};"
+      ],
+    "description": "Creates a default Angular Copy"
+  }
+}

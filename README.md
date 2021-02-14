@@ -4,7 +4,7 @@ An extension for help the development of Zeedhi Framework create by Teknisa Soft
 
 Zeedhi is an framework that uses JSON to create their HTML/CSS files.
 
-For any problem you can email to: paulo.oliveira@teknisa.com
+For any problem or idea to improve you can email to: paulo.oliveira@teknisa.com
 
 # Docs
 

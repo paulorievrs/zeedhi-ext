@@ -4,7 +4,7 @@
 	"description": "Facilita o desenvolvimento com o framework Zeedhi",
 	"publisher": "PauloRievrs",
 	"author": "Paulo Rievrs <prievrs@gmail.com>",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/paulorievrs/zeedhi-ext.git"
@@ -68,6 +68,10 @@
 			{
 				"language": "json",
 				"path": "./snippets/actions.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
 			}
 		]
 	},

@@ -18,6 +18,17 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 
 ## [0.0.3] - 02-14-2021
 
+### Added
+
 - Add Action snippets
 - Add show as action propertie
 - Add text-field field
+
+
+## [0.0.4] - 02-14-2021
+
+### Added
+
+- Template Manager Snippets
+- ConstruirData Snippet
+- setStripeValues Snippet
