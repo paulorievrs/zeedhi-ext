@@ -61,3 +61,10 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 ### Fixed
 
 - Fixed the directory to install
+
+## [0.0.9] - 02-15-2021
+
+### Fixed
+
+- Start to use VSCODE Terminal to make sure that the commands to install modules work
+

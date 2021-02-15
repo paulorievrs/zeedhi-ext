@@ -40,24 +40,22 @@ module.exports = {
 
 }
 
+/**
+ * @param {string} module
+ */
 function createModule(module) {
+   
+    const command = `cd /home/developer/workfolder/tecfood/mobile && npm start ${module}`;
 
     try {
-
         vscode.window.showInformationMessage("Executing command create module: " + module);
         
-        require('child_process').exec('cd /home/developer/workfolder/tecfood/mobile && npm start ' + module, {}, (error, stdout, stderr) => {
-
-            if(!error) {
-                vscode.window.showInformationMessage("Created file sucessfully.");
-            } else {
-                vscode.window.showErrorMessage(error.cmd);
-            }
-        });
-
+        const terminal = vscode.window.createTerminal(`Zeedhi Extension ${module}`);
+        terminal.show();
+        terminal.sendText(command);
+        vscode.window.showInformationMessage("Command has ended.");
 
     } catch (err) {
-        vscode.window.showErrorMessage(err);
-
+        vscode.window.showErrorMessage(`Error to create, command: ${command}`);
     }
 }
