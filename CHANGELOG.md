@@ -49,3 +49,9 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 ### Removed
 
 - Removed action to create a empty JSON file
+
+## [0.0.7] - 02-15-2021
+
+### Fixed
+
+- The modules creating command
