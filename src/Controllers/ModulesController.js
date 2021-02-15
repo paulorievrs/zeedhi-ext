@@ -42,13 +42,11 @@ module.exports = {
 
 function createModule(module) {
 
-    const folderPath = utils.getCurrentWorkspaceFolder();
-
     try {
 
         vscode.window.showInformationMessage("Executing command create module: " + module);
         
-        require('child_process').exec('cd ' + folderPath + '/tecfood/mobile && npm start' + module, {}, (error, stdout, stderr) => {
+        require('child_process').exec('cd ./tecfood/mobile && npm start ' + module, {}, (error, stdout, stderr) => {
 
             if(!error) {
                 vscode.window.showInformationMessage("Created file sucessfully.");
