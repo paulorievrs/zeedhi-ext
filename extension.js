@@ -18,12 +18,6 @@ function activate(context) {
 	// This line of code will only 6be executed once when your extension is activated
 	console.log('Congratulations, your extension "zeedhi-ext" is now active!');
 
-    vscode.commands.registerCommand('zeedhi-ext.criaJSON', function () {
-		if(JSONController.hasWorkspace()) {
-			JSONController.createJSON();
-		}
-	});
-
 	vscode.commands.registerCommand('zeedhi-ext.criaJSONCopy', function () {
 		if(JSONController.copyJSON()) {
 			vscode.window.showInformationMessage('Copied with success!');

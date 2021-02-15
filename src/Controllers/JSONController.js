@@ -6,33 +6,6 @@ const path = require("path");
 
 module.exports = {
     
-    createJSON: function() {
-        
-        let json = `{ 
-            "name": "filename",
-            "label": "screen label",
-            "showMenu": true,
-            "showHeader": true,
-            "showFooter": true,
-            "template": "container/window.html",
-            "footer": "component/footer.html",
-            "widgets": []
-        }`;
-
-
-        const folderPath = utils.getCurrentWorkspaceFolder();
-        fs.writeFile(folderPath + '/json.json', json, err => {
-
-            if (err) {
-                return vscode.window.showErrorMessage(err.message);
-            }
-
-            vscode.window.showInformationMessage(
-                "JSON create successfully"
-            );
-        });
-        
-    },
     copyJSON: function() {
         let json = `{ 
             "name": "filename",

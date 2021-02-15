@@ -4,7 +4,7 @@
 	"description": "Facilita o desenvolvimento com o framework Zeedhi",
 	"publisher": "PauloRievrs",
 	"author": "Paulo Rievrs <prievrs@gmail.com>",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/paulorievrs/zeedhi-ext.git"
@@ -28,10 +28,6 @@
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "zeedhi-ext.criaJSON",
-				"title": "Zeedhi: Cria uma tela vazia do Zeedhi"
-			},
 			{
 				"command": "zeedhi-ext.criaJSONCopy",
 				"title": "Zeedhi: Copia um JSON de uma tela vazia padrão para área de transferência"

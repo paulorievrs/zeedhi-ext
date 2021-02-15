@@ -39,3 +39,13 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 
 - DataSourceController
 - Create a default datasource from a table name
+
+## [0.0.6] - 02-15-2021
+
+### Fixed
+
+- The modules creating command
+
+### Removed
+
+- Removed action to create a empty JSON file

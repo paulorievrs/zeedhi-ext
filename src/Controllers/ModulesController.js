@@ -12,8 +12,6 @@ module.exports = {
             
             require('child_process').exec('cd ' + folderPath + '/tecfood/mobile && npm start', {}, (error, stdout, stderr) => {
 
-                let outputChannel = vscode.window.createOutputChannel('Zeedhi Debug');
-                outputChannel.appendLine(stdout);
                 if(!error) {
                     vscode.window.showInformationMessage("Created file sucessfully.");
                 } else {
@@ -48,22 +46,20 @@ function createModule(module) {
 
     try {
 
-        vscode.window.showInformationMessage("Executando comando...");
+        vscode.window.showInformationMessage("Executing command create module: " + module);
         
-        require('child_process').exec('cd ' + folderPath + '/tecfood/mobile && npm start ' + module, {}, (error, stdout, stderr) => {
+        require('child_process').exec('cd ' + folderPath + '/tecfood/mobile && npm start' + module, {}, (error, stdout, stderr) => {
 
-            let outputChannel = vscode.window.createOutputChannel('Zeedhi Debug');
-            outputChannel.appendLine(stdout);
             if(!error) {
                 vscode.window.showInformationMessage("Created file sucessfully.");
             } else {
-                vscode.window.showErrorMessage('Error you have to be into workfolder project!', folderPath);
+                vscode.window.showErrorMessage(error.cmd);
             }
         });
 
 
     } catch (err) {
-        vscode.window.showErrorMessage('Error you have to be into workfolder project!', folderPath);
+        vscode.window.showErrorMessage(err);
 
     }
 }
