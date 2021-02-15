@@ -68,3 +68,9 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 
 - Start to use VSCODE Terminal to make sure that the commands to install modules work
 
+## [0.0.10] - 02-15-2021
+
+### Fixed
+
+- Download the default datasouce by name.
+

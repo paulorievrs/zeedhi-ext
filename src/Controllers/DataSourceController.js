@@ -8,7 +8,7 @@ module.exports = {
     
     createJSON: async function() {
 
-        const dataSourceName = await vscode.window.showInputBox({
+        let dataSourceName = await vscode.window.showInputBox({
             value: '',
             placeHolder: 'Type a dataSource name to create.'
         });
@@ -41,11 +41,13 @@ module.exports = {
         })
         .then(res => {
             console.log(`statusCode: ${res.statusCode}`);
-            console.log('Done');
+            vscode.window.showInformationMessage("Created datasource successfully on /workfolder/datasource/.");
+
         })
         
         .catch(error => {
-            console.error('error 1');
+            vscode.window.showErrorMessage('Datasource not found.');
+            dataSourceName = null;
         });        
         
         return dataSourceName;
@@ -54,25 +56,28 @@ module.exports = {
     downloadJson: async function(dataSourceName) {
 
         if(!dataSourceName) {
-            vscode.window.showErrorMessage('You have to set a filename');
-
             return false;
         }
 
         const folderPath = utils.getCurrentWorkspaceFolder();
 
-        vscode.window.showInformationMessage("Starting to download file...");
-
         const path = Path.resolve(folderPath, dataSourceName + '.json');
         const writer = Fs.createWriteStream(path);
-    
-        const response = await axios({
-            url: 'http://gabrielxavier.zeedhi.com/workfolder/datasource/' + dataSourceName + '.json',
-            method: 'GET',
-            responseType: 'stream'
-        });
-        vscode.window.showInformationMessage("Created file sucessfully.");
-        response.data.pipe(writer);
+        
+        try {
+            const response = await axios({
+                url: 'http://gabrielxavier.zeedhi.com/workfolder/datasource/' + dataSourceName + '.json',
+                method: 'GET',
+                responseType: 'stream'
+            });
+            response.data.pipe(writer);
+            vscode.window.showInformationMessage("Created file successfully.");
+        } catch {
+            vscode.window.showErrorMessage('Dowload error. If the file is empty verify if the datasource exists.');
+
+        }
+        
+        
         
     },
     hasWorkspace: function() {

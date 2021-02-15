@@ -40,13 +40,28 @@ function activate(context) {
 		ModulesController.sup();
 	});
 	vscode.commands.registerCommand('zeedhi-ext.createDataSource', async function () {
+		
 		const dataSourceName = await DataSourceController.createJSON();
-		DataSourceController.downloadJson(dataSourceName);
+
+		vscode.window.showInformationMessage("O datasourcename é : " + dataSourceName);
+
+		if(!dataSourceName) {
+			return;
+		}
+
+		vscode.window.showInformationMessage("Starting to download file...");
+
+		await new Promise(resolve => setTimeout(resolve, 10000));
+
+		await DataSourceController.downloadJson(dataSourceName);
+
 	});
 
 
 	context.subscriptions.push();
 }
+
+  
 
 // this method is called when your extension is deactivated
 function deactivate() {}
