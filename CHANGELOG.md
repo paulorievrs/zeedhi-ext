@@ -55,3 +55,9 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 ### Fixed
 
 - The modules creating command
+
+## [0.0.8] - 02-15-2021
+
+### Fixed
+
+- Fixed the directory to install

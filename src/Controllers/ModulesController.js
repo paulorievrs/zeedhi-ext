@@ -46,7 +46,7 @@ function createModule(module) {
 
         vscode.window.showInformationMessage("Executing command create module: " + module);
         
-        require('child_process').exec('cd ./tecfood/mobile && npm start ' + module, {}, (error, stdout, stderr) => {
+        require('child_process').exec('cd /home/developer/workfolder/tecfood/mobile && npm start ' + module, {}, (error, stdout, stderr) => {
 
             if(!error) {
                 vscode.window.showInformationMessage("Created file sucessfully.");
