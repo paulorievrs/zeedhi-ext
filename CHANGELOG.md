@@ -32,3 +32,10 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 - Template Manager Snippets
 - ConstruirData Snippet
 - setStripeValues Snippet
+
+## [0.0.5] - 02-14-2021
+
+### Added
+
+- DataSourceController
+- Create a default datasource from a table name

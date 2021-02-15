@@ -2,7 +2,8 @@
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
 const JSONController = require('./src/Controllers/JSONController');
-const ModulesController = require('./src/Controllers//ModulesController');
+const ModulesController = require('./src/Controllers/ModulesController');
+const DataSourceController = require('./src/Controllers/DataSourceController');
 
 
 // this method is called when your extension is activated
@@ -43,6 +44,10 @@ function activate(context) {
 
 	vscode.commands.registerCommand('zeedhi-ext.createSup', function () {
 		ModulesController.sup();
+	});
+	vscode.commands.registerCommand('zeedhi-ext.createDataSource', async function () {
+		const dataSourceName = await DataSourceController.createJSON();
+		DataSourceController.downloadJson(dataSourceName);
 	});
 
 
