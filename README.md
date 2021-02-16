@@ -11,9 +11,25 @@ For any problem or idea to improve you can email to: paulo.oliveira@teknisa.com
 
 We make you code to Zeedhi faster, giving you the most usable snippets to code either to JSON, JavaScript or PHP.
 
-**Example:**
+You can download modules easily from the extension commands. See more bellow:
 
-Type *emptyjson* in a JSON file and see what it suggests you to do.
+### JSON Example:
+
+<img src='./assets/gif1.gif'>
+
+### Javascript Example:
+
+<img src='./assets/js.gif'>
+
+
+### Commands:
+
+<img src='./assets/allcommands.png'>
+
+### Modules to download:
+
+<img src='./assets/createmodules.png'>
+
 
 # Recommended
 
