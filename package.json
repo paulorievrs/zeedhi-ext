@@ -25,6 +25,7 @@
 		"onCommand:zeedhi-ext.createSup",
 		"onCommand:zeedhi-ext.createDataSource"
 	],
+	"keywords": ["teknisa", "zeedhi", "extensão zeedhi"],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
