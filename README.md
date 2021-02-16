@@ -20,7 +20,6 @@ Type *emptyjson* in a JSON file and see what it suggests you to do.
 I recommend to improve your development with this extension to install the extensions above:
 
 * [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-* [Fix JSON](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
 * [JSON Organizer](https://marketplace.visualstudio.com/items?itemName=rintoj.json-organizer)
 
 **They are not mandatory to this extension works, but, will make you code faster and better.**
