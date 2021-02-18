@@ -4,7 +4,7 @@
 	"description": "Facilita o desenvolvimento com o framework Zeedhi",
 	"publisher": "PauloRievrs",
 	"author": "Paulo Rievrs <prievrs@gmail.com>",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/paulorievrs/zeedhi-ext.git"
@@ -25,7 +25,11 @@
 		"onCommand:zeedhi-ext.createSup",
 		"onCommand:zeedhi-ext.createDataSource"
 	],
-	"keywords": ["teknisa", "zeedhi", "extensão zeedhi"],
+	"keywords": [
+		"teknisa",
+		"zeedhi",
+		"extensão zeedhi"
+	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [

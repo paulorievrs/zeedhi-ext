@@ -74,3 +74,7 @@ All notable changes to the "zeedhi-ext" extension will be documented in this fil
 
 - Download the default datasouce by name.
 
+## [0.0.11] - 02-15-2021
+
+- Updating Readme
+
